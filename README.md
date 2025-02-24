@@ -23,8 +23,8 @@ A simple web application that allows users to upload a CSS file and minify/compr
 - 4️⃣ The minified CSS file will be available for download.
 
 ## 🔧 Setup (For Developers)
-- Clone the repository: `git clone https://github.com/amitesh786/CSS-Minifier.git`
-- cd `CSS-Minifier`
+- Clone the repository: `git clone https://github.com/amitesh786/CSSMinifier.git`
+- cd `CSSMinifier`
 - Open index.html in a browser and start using the tool!
 
 ## 📜 License
