@@ -1,5 +1,5 @@
 # 📄 CSS Minifier & Compressor
-A simple web application that allows users to upload a CSS file and minify/compress it instantly using JavaScript.
+A lightweight web application that enables users to upload a CSS file and efficiently minify or compress it in real time using JavaScript.
 
 ## 🚀 Features
 - ✅ Upload and minify CSS files with one click.
