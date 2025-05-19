@@ -2,10 +2,10 @@
 A lightweight web app that lets users upload and minify CSS files in real time using JavaScript — all done in the browser with no server required!
 
 ## Features
-- Upload and minify CSS files with one click.
-- User-friendly interface built with Bootstrap.
-- Client-side processing – No server required.
-- Fast and lightweight solution.
+- One-click CSS file upload and minification
+- Clean, responsive UI built with Bootstrap
+- Fully client-side — no backend/server needed
+- Fast and lightweight tool
 
 ## File Structure
 - │── index.html           # Main HTML file
