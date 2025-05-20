@@ -13,8 +13,8 @@ A lightweight web app that lets users upload and minify CSS files in real time u
 - │── README.md            # Project documentation
 
 ## Technologies Used
-- HTML5, CSS3, Bootstrap – For responsive UI
-- JavaScript (CSSTree / CSSO) – For minifying CSS
+- **HTML5, CSS3, Bootstrap** – For building a responsive user interface  
+- **JavaScript** – With CSSTree/CSSO for CSS parsing and compression
 
 ## How to Use
 - Open `index.html` in your browser  
