@@ -17,10 +17,10 @@ A lightweight web app that lets users upload and minify CSS files in real time u
 - JavaScript (CSSTree / CSSO) – For minifying CSS
 
 ## How to Use
-- Open index.html in a browser.
-- Click on the file input and select a CSS file.
-- Click the "Minify CSS" button to start processing.
-- The minified CSS file will be available for download.
+- Open `index.html` in your browser  
+- Upload a `.css` file using the file input  
+- Click **"Minify CSS"**  
+- Download the optimized/minified version
 
 ## Setup (For Developers)
 - Clone the repository: `git clone https://github.com/amitesh786/CSSMinifier.git`
