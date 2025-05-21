@@ -1,34 +1,40 @@
 # CSS Minifier & Compressor
 A lightweight web app that lets users upload and minify CSS files in real time using JavaScript — all done in the browser with no server required!
 
+## Table of Contents
+
+- [Features](#Features)
+- [File-Structure](#File-Structure)
+- [Technologies-Used](#Technologies-Used)
+- [How-to-Use](#How-to-Use)
+- [Setup](#Setup)
+- [Author](#Author)
+
 ## Features
 - One-click CSS file upload and minification
 - Clean, responsive UI built with Bootstrap
 - Fully client-side — no backend/server needed
 - Fast and lightweight tool
 
-## File Structure
+## File-Structure
 - │── index.html           # Main HTML file
 - │── converter.js         # JavaScript file for CSS minification
 - │── README.md            # Project documentation
 
-## Technologies Used
+## Technologies-Used
 - **HTML5, CSS3, Bootstrap** – For building a responsive user interface  
 - **JavaScript** – With CSSTree/CSSO for CSS parsing and compression
 
-## How to Use
+## How-to-Use
 - Open `index.html` in your browser  
 - Upload a `.css` file using the file input  
 - Click **"Minify CSS"**  
 - Download the optimized/minified version
 
-## Setup (For Developers)
+## Setup
 - Clone the repository: `git clone https://github.com/amitesh786/CSSMinifier.git`
 - cd `CSSMinifier`
 - Open index.html in a browser and start using the tool!
-
-## License
-- This project is open-source and available under the MIT License.
 
 ## Author
 - Developed by Amitesh Singh | © 2025
