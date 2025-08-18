@@ -1,3 +1,16 @@
+const showToast = (message, type = 'primary') => {
+    const toastEl = document.getElementById('toastMessage');
+    const toastBody = toastEl.querySelector('.toast-body');
+
+    toastBody.textContent = message;
+    toastEl.className = `toast align-items-center text-bg-${type} border-0`;
+
+    const toast = new bootstrap.Toast(toastEl, {
+        delay: 5000
+    });
+    toast.show();
+}
+
 document.getElementById('cssFileInput').addEventListener('change', function () {
     const fileInput = this;
     const file = fileInput.files[0];
@@ -9,7 +22,7 @@ document.getElementById('cssFileInput').addEventListener('change', function () {
         const fileExtension = file.name.split('.').pop().toLowerCase();
 
         if (!validExtensions.includes(fileExtension) || file.type !== 'text/css') {
-            alert('Invalid file format! Please upload a valid CSS file.');
+            showToast('Invalid file format! Please upload a valid CSS file.', 'warning');
             fileInput.value = '';
             minifyButton.disabled = true;
             return;
@@ -28,7 +41,7 @@ document.getElementById('minifyButton').addEventListener('click', function () {
     const file = fileInput.files[0];
 
     if (!file) {
-        alert('Please upload a CSS file first.');
+        showToast('Please upload a CSS file first.', 'warning');
         return;
     }
 
@@ -45,7 +58,14 @@ document.getElementById('minifyButton').addEventListener('click', function () {
         downloadLink.download = 'minified.min.css';
         downloadLink.style.display = 'block';
         downloadLink.textContent = 'Download Minified CSS';
+        
+        downloadLink.addEventListener('click', () => {
+            showToast('File downloaded successfully!', 'success');
+            
+            fileInput.value = '';
+            downloadLink.style.display = 'none';
+            document.getElementById('minifyButton').disabled = true;
+        });
     };
-
     reader.readAsText(file);
 });
