@@ -4,7 +4,6 @@ A lightweight web app that lets users upload and minify CSS files in real time u
 ## Table of Contents
 
 - [Features](#Features)
-- [File-Structure](#File-Structure)
 - [Technologies-Used](#Technologies-Used)
 - [How-to-Use](#How-to-Use)
 - [Setup](#Setup)
@@ -15,11 +14,6 @@ A lightweight web app that lets users upload and minify CSS files in real time u
 - Clean, responsive UI built with Bootstrap
 - Fully client-side — no backend/server needed
 - Fast and lightweight tool
-
-## File-Structure
-- │── index.html           # Main HTML file
-- │── converter.js         # JavaScript file for CSS minification
-- │── README.md            # Project documentation
 
 ## Technologies-Used
 - **HTML5, CSS3, Bootstrap** – For building a responsive user interface  
